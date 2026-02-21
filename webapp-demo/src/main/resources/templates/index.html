@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <title>Maven Web App</title>
+    <link rel="stylesheet" th:href="@{/style.css}">
+</head>
+<body>
+    <h1 th:text="${message}">Default Message</h1>
+    <p>The current server time is: <b th:text="${serverTime}">12:00</b></p>
+    
+    <div class="static-box">
+        This box is styled by a static CSS file!
+    </div>
+</body>
+</html>
